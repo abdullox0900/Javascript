@@ -26,4 +26,8 @@
 
 // elBody.append(elText)
 
+
+
+
+
 // console.log(document.getElementById('text').textContent = `ismi: ${name} yoshi: ${age}`);
