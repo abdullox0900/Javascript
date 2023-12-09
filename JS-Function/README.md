@@ -59,3 +59,42 @@ Result: `15`
 ## Nima uchun funksiyalar?
 
 😎 Bir marta yarating ko'p marta foydalaning.
+
+## Javascriptda 3 xil turdagi funksiyalar bor va ular o'zining ishlash usuli bor
+
+### 1. Function Declaration
+
+```javascript
+function calcAge(birthYear) {
+  let age = 2023 - birthYear
+  return age
+}
+
+console.log(calcAge(2003))
+```
+
+Result: `20`
+
+### 2. Function Expression
+
+```javascript
+const calcAge = function(birthYear) {
+  let age = 2023 - birthYear
+  return age
+}
+
+console.log(calcAge(2003))
+```
+
+Result: `20`
+
+### 3. Arrow function (o'qli funksiya) - function expression'ni qisqaroq va tezroq yozish usuli
+
+Elatma: ***Arrow Function*** ES6 chiqan 
+
+```javascript
+const calcAge = birthYear => 2023 - birthYear;
+
+console.log(calcAge)
+```
+
