@@ -69,3 +69,38 @@ if (year == 2015) {
 
 ## Bir qancha shart = Several conditions: 'else if'
 
+Kelilar bir dastur tuzaylik.
+
+Agar vaqt 10:00 dan kam bo‘lsa, "xayrli tong" desin, bo‘lmasa, soat 20:00 dan kam bo‘lsa, "xayrli kun" desin, aks holda "xayrli oqshom" chiksin 
+
+```javascript
+if (time < 10) {
+  greeting = "Good morning 🙂";
+} else if (time < 20) {
+  greeting = "Good day ☀️";
+} else {
+  greeting = "Good evening 💤";
+}
+```
+
+Yana bir misol:
+
+```javascript
+let num_1 = 1;
+
+if (num_1 == 1) {
+    console.log('Bu 1 raqami');
+} else if (num_1 == 2) {
+    console.log('Bu 2 raqami');
+} else if (num_1 == 3) {
+    console.log('Bu 3 raqami');
+} else if (num_1 == 4) {
+    console.log('Bu 4 raqami');
+} else {
+    console.log('Bunday raqam topilmadi 😐');
+}
+```
+
+## Ternary Operator ? 
+
+Demak, ternari operatori nima ? bu if elseni soddalashtirilgan varianti deb tushunsak boladi
