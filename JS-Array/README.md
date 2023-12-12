@@ -41,8 +41,55 @@ let fruits = ["Apple", "Banana", "Cherry"];
 fruits[2] = 'Kiwi'
 
 console.log(fruits); 
-
 ```
 
 Result: `["Apple", "Banana", "Kiwi"]`
+
+Yoki biz yangi element xam ko‘shishimiz mumkin arraymizga.
+
+```javascript
+let fruits = ["Apple", "Banana", "Cherry"];
+
+fruits[3] = 'Kiwi'
+
+console.log(fruits); 
+```
+Result: `["Apple", "Banana", "Cherry", "Kiwi"]`
+
+Array uzunligini bilmoqchi bo‘lsak lenght xususiyatidan foydalanamiz.
+
+```javascript
+let fruits = ["Apple", "Banana", "Cherry"];
+
+console.log(fruits.length) // length xususiyati yoki (свойстваси) bizga array ichida nechta element borligini qaytaradi (3)
+```
+
+Result: `3`
+
+`length` xususiyati bizga qaytargan natija numberda bo‘ladi
+
+```javascript
+let fruits = ["Apple", "Banana", "Cherry"];
+
+console.log(typeof (fruits.length)) 
+```
+
+Result: `number`
+
+Biz arrayga har qanday turdagi elementlar saqlanishi mumkin.
+
+```javascript
+let my_arr = [1, 2.3, '45', true, undefined, null, {name: 'abdulloh'}, function() {alert("Hi, I'm alert")}]
+```
+
+Array ichida elementlarni `,` "Osilgan vergul" ajratib yozamiz, agar tushunmagan bo‘lsangiz 😁. pastda misolga karrang. 
+
+```javascript
+let cars = [
+    'BMW',
+    'Mercades',
+    'Chevrolet', // <-- mana shu vergul bilan ajratib yozamiza bola
+    'Volvo'
+]
+```
 
