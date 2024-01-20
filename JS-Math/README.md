@@ -62,3 +62,6 @@ Math.min(5, 2, 7); // 2
 Math.min(-5, -2, -7); // -7
 ```
 
+### SHARQ HIKMATLARI 🙂
+
+Avvalo olim bo‘l! Loaqal ta’lim oluvchi yoki tinglovchi, ilmu ulamolarni sevuvchi bo‘lgin.
