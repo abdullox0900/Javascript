@@ -138,3 +138,10 @@ multiplyArgs(6, 5, 7, 9);
 
 `REST` operator function parametrida ishlatamiz `SPREAD` operatorini esa nusxalash uchun
 xa rest xam nusxalaydi unda farqi nimada ishlanish joyida funtion kelsa `REST` diyladi`
+
+Foydali linklar 
+
+ - [YuoTube SPREAD and REST ru](https://www.youtube.com/watch?v=SGeQ-U0G7dE&t=909s)
+ - [YuoTube SPREAD and REST ru](https://www.youtube.com/watch?v=HkQ--STLf2Q&t=613s)
+ - [Medium](https://cleverzone.medium.com/demystifying-javascript-spread-operat-71924c888a8)
+ 
